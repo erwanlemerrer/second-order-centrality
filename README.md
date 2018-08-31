@@ -5,7 +5,7 @@ The SOC of a given node is the standard deviation of the return times to that no
 
 Despite the general use of SOC for computation in a distributed setup, this implementation is for single core computation, where the graph to analyze is passed to the function as an argument.
 
-This code implements the analytical version of the algorithm, i.e., there is no simulation of a random walk process involved. The random walk is here biased (corresponding to eq(4) of the paper:
+This code implements the analytical version of the algorithm, i.e., there is no simulation of a random walk process involved. The random walk is here unbiased (corresponding to eq 6 of the paper):
 
 Anne-Marie Kermarrec, Erwan Le Merrer, Bruno Sericola, Gilles Trédan,
 "Second order centrality: Distributed assessment of nodes criticity in
