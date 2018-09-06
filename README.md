@@ -1,3 +1,13 @@
+# Now part of networkx lib
+
+Code available as part of the networkx library:
+https://github.com/networkx/networkx
+
+Here:
+https://github.com/networkx/networkx/blob/master/networkx/algorithms/centrality/second_order.py
+
+Call it as nx.second_order_centrality(G).
+
 # Second order centrality (NetworkX implementation)
 
 The second order centrality (SOC) is a [centrality](https://en.wikipedia.org/wiki/Centrality) or 'importance' metric for nodes in a graph.
